@@ -36,10 +36,13 @@ strong {
 
 .intro-chunk {
   max-width: 415px;
+  > h1 {
+    padding-inline: 20px;
+  }
 }
 
 .card {
-  width: 650px;
+  max-width: 650px;
   padding-block: 1px;
   background-color: hsla(0, 0%, 100%, 1);
   border-block-end-style: solid;
